@@ -9,9 +9,12 @@ import Page5 from "./components/Page5";
 import Page6 from "./components/Page6";
 import Page7 from "./components/Page7";
 import Page8 from "./components/Page8";
+import { Suspense } from 'react';
+import LodingPage from "./components/LodingPage";
 
 function App() {
   return (
+    <Suspense fallback={<LodingPage/>}>
     <ParallaxProvider className="app">
       <div className="App">
        <div className="name">นาย อนุชา แก้วนิล<br />รหัสนักศึกษา 661112010014</div>
@@ -24,9 +27,9 @@ function App() {
           <Page6 />
           <Page7 />
           <Page8 />
-
       </div>
     </ParallaxProvider>
+    </Suspense>
   );
 }
 
