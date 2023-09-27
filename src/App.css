@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Prompt&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  color: white;
+}
+.App{
+  background-color: black;
+}
