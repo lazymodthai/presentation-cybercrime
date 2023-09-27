@@ -18,29 +18,28 @@ function Page4() {
         />
       </Parallax>
       <div className="imgBox">
-        <Parallax speed={10} translateX={["-600px", "0px"]}>
-          <img src={Older} alt="older" style={{ maxWidth: "400px" }} />
+        <Parallax speed={10} translateX={["-600px", "200px"]}>
+          <img src={Older} alt="older" className="imgInBox" />
         </Parallax>
         <Parallax
           speed={20}
           className="olderText"
-          translateX={["600px", "0px"] }
-          style={{paddingRight:'200px'}}
+          translateX={["200px", "0px"]}
         >
           ผู้สูงอายุ
         </Parallax>
       </div>
 
       <div className="imgBox">
-      <Parallax
-          speed={50}
+        <Parallax
+          speed={10}
           className="olderText"
-          translateX={["-400px", "0px"]}
+          translateX={["-100px", "200px"]}
         >
           ผู้ที่ไม่มีความรู้ด้านกฎหมาย
         </Parallax>
-        <Parallax speed={10} translateX={["400px", "0px"] } >
-          <img src={Unknower} alt="older" style={{ maxWidth: "400px" }} />
+        <Parallax speed={20} translateX={["100px", "0px"]}>
+          <img src={Unknower} alt="older" className="imgInBox" />
         </Parallax>
       </div>
     </div>

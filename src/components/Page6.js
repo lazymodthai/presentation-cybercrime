@@ -15,16 +15,16 @@ function Page6() {
           repeat={Infinity}
         />
       </Parallax>
-      <Parallax speed={120} translateX={['-600px', '0px']} className="items">
+      <Parallax speed={120} translateX={['-600px', '580px']} className="items">
         อย่าหลงเชื่ออะไรง่าย ๆ โดยเฉพาะที่เกี่ยวกับเงิน ๆ ทอง ๆ
       </Parallax>
-      <Parallax speed={120} translateX={['500px', '0px']} className="items">
+      <Parallax speed={120} translateX={['500px', '-480px']} className="items">
         หากไม่แน่ใจให้โทรหาตำรวจก่อน 191 ก็ได้
       </Parallax>
-      <Parallax speed={120} translateX={['-400px', '0px']} className="items">
+      <Parallax speed={120} translateX={['-400px', '380px']} className="items">
         หรือปรึกษาคนที่มีความรู้ ก่อนการตัดสินใจทำอะไรด้วยตัวเอง
       </Parallax>
-      <Parallax speed={120} translateX={['300px', '0px']} className="items">
+      <Parallax speed={120} translateX={['300px', '-280px']} className="items">
         รู้จักระวังตัวและติดตามข่าวให้รู้เท่าทันมิขฉาชีพอยู่เสมอ
       </Parallax>
     </div>

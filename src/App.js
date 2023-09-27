@@ -14,7 +14,7 @@ function App() {
   return (
     <ParallaxProvider className="app">
       <div className="App">
-       <div className="name">นาย อนุชา แก้วนิล | รหัสนักศึกษา 661112010014</div>
+       <div className="name">นาย อนุชา แก้วนิล<br />รหัสนักศึกษา 661112010014</div>
           <Page1 />
           <Vid />
           <Page2 />

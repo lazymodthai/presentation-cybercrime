@@ -9,7 +9,7 @@ function Page8() {
         <h1 className="gdtext">อย่าถูกหลอกกันนะครับ</h1>
       </Parallax>
       <Parallax speed={50}>
-        <img src={Endimage} alt="end" style={{maxHeight:"100vh"}}/>
+        <img src={Endimage} alt="end" className="endImg"/>
       </Parallax>
     </div>
   );
