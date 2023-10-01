@@ -9,7 +9,7 @@ function Page5() {
       <Parallax speed={5}>
         <TypeAnimation
           className="title"
-          sequence={["ถ้าสงสัยหรือรู้ตัวว่าโดนจะทำยังไงดี ?", 3000]}
+          sequence={["จุดอ่อนของมนุษย์ที่จะทำให้ถูกหลอก ?", 3000]}
           wrapper="span"
           speed={50}
           repeat={Infinity}
@@ -17,16 +17,28 @@ function Page5() {
       </Parallax>
       <div className="textCard">
       <ul>
-        <Parallax speed={30}>
+        <Parallax speed={70}>
           <li>
-            ตั้งสติให้ดี (อาจจะแกล้งคุยกับมิจฉาชีพก่อนเพื่อให้บัญชีม้าไม่โดนปิด)
+          ความกลัว
           </li>
         </Parallax>
-        <Parallax speed={60}>
-          <li>รีบแจ้งธนาคารก่อนให้อายัดบัญชีม้าที่โอนไป</li>
+        <Parallax speed={70}>
+          <li>ความเร่งรีบ</li>
         </Parallax>
-        <Parallax speed={90}>
-          <li>โทรแจ้งตำรวจ</li>
+        <Parallax speed={70}>
+          <li>ความโลภ</li>
+        </Parallax>
+        <Parallax speed={70}>
+          <li>ความอยากรู้อยากเห็น</li>
+        </Parallax>
+        <Parallax speed={50}>
+          <li>ใช้ความน่าเชื่อถือ</li>
+        </Parallax>
+        <Parallax speed={50}>
+          <li>การเบี่ยงเบนความสนใจ</li>
+        </Parallax>
+        <Parallax speed={50}>
+          <li>หลอกให้รัก</li>
         </Parallax>
       </ul>
       </div>

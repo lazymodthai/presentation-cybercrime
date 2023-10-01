@@ -62,13 +62,14 @@
 
 .textCard {
     display: block;
-    width: 50%;
+    width: 60%;
     font-size: 1.65em;
 }
 
 .textCard ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -76,8 +77,8 @@
 
 .textCard ul li {
     display: flex;
-    width: 350px;
-    height: 300px;
+    width: 250px;
+    height: 200px;
     margin: 0 40px;
     padding: 10px 30px;
     justify-content: center;
@@ -127,6 +128,7 @@
 }
 
 .items {
+    width: 60%;
     display: block;
     font-size: 1.8em;
     padding: 20px;
