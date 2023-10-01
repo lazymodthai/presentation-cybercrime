@@ -17,27 +17,27 @@ function Page5() {
       </Parallax>
       <div className="textCard">
       <ul>
-        <Parallax speed={70}>
+        <Parallax speed={20}>
           <li>
           ความกลัว
           </li>
         </Parallax>
-        <Parallax speed={70}>
+        <Parallax speed={20}>
           <li>ความเร่งรีบ</li>
         </Parallax>
-        <Parallax speed={70}>
+        <Parallax speed={20}>
           <li>ความโลภ</li>
         </Parallax>
-        <Parallax speed={70}>
+        <Parallax speed={20}>
           <li>ความอยากรู้อยากเห็น</li>
         </Parallax>
-        <Parallax speed={50}>
+        <Parallax speed={40}>
           <li>ใช้ความน่าเชื่อถือ</li>
         </Parallax>
-        <Parallax speed={50}>
+        <Parallax speed={40}>
           <li>การเบี่ยงเบนความสนใจ</li>
         </Parallax>
-        <Parallax speed={50}>
+        <Parallax speed={40}>
           <li>หลอกให้รัก</li>
         </Parallax>
       </ul>

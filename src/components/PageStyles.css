@@ -35,7 +35,7 @@
 .textBlock {
     display: block;
     width: 60%;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 .textBlock ul {
@@ -77,9 +77,9 @@
 
 .textCard ul li {
     display: flex;
-    width: 250px;
-    height: 200px;
-    margin: 0 40px;
+    width: 200px;
+    height: 180px;
+    margin: 0 20px;
     padding: 10px 30px;
     justify-content: center;
     align-items: center;
@@ -130,7 +130,7 @@
 .items {
     width: 60%;
     display: block;
-    font-size: 1.8em;
+    font-size: 1.7em;
     padding: 20px;
     color: #ffffff;
     font-weight: 600;
@@ -220,12 +220,12 @@
         flex-direction: column;
     }
     .textCard ul li {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 100px;
         font-size: 0.8em;
     }
     .items{
-        font-size: 1.2  em;
+        font-size: 1em;
     }
     .endImg{
         max-height: 100vh;
